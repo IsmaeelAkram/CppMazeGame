@@ -25,6 +25,8 @@
 /* Begin PBXFileReference section */
 		F01F2A5026A4DDF500A3B4C7 /* CppMazeGame */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CppMazeGame; sourceTree = BUILT_PRODUCTS_DIR; };
 		F01F2A5326A4DDF500A3B4C7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F073C28A26A50DA800F511DA /* mazegen.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = mazegen.py; sourceTree = "<group>"; };
+		F073C28B26A50DA800F511DA /* obstacles.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = obstacles.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,8 @@
 		F01F2A5226A4DDF500A3B4C7 /* CppMazeGame */ = {
 			isa = PBXGroup;
 			children = (
+				F073C28A26A50DA800F511DA /* mazegen.py */,
+				F073C28B26A50DA800F511DA /* obstacles.txt */,
 				F01F2A5326A4DDF500A3B4C7 /* main.cpp */,
 			);
 			path = CppMazeGame;
